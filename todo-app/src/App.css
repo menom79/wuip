@@ -1,0 +1,84 @@
+/* Update your existing App.css or create a new file */
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f5f5f5; /* Light Gray */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #3498db; /* Belize Hole */
+  text-align: center;
+  color: #ffffff; /* White */
+  padding: 20px 0;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* ToDoFormAndList styles */
+
+.ToDoFormAndList {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=text] {
+  flex: 1;
+  border: 2px solid #3498db; /* Belize Hole */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+input[type=submit] {
+  border: 2px solid #3498db; /* Belize Hole */
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #3498db; /* Belize Hole */
+  color: #ffffff; /* White */
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+  background-color: #2980b9; /* Belize Hole - Darker */
+  color: #ffffff; /* White */
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1; /* Clouds */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #bdc3c7; /* Silver */
+}
+
+span {
+  cursor: pointer;
+  color: #e74c3c; /* Alizarin */
+  font-weight: bold;
+  margin-left: 5px;
+}
